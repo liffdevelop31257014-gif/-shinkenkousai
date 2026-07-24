@@ -26,50 +26,7 @@ Q25 毎月どれくらい貯蓄したいですか？
 Q26 投資はしたいですか？
 Q27 保険への加入や、すでに加入している方はプランの変更など考えていますか？
 Q28 将来は何歳くらいまで働きたいですか？定年後も再雇用や非正規雇用で働き続けたいですか？
-<textarea id="q28" class="detail-textarea"></textarea>
-
-<!-- Q29 -->
-<label>Q29 将来、自分の親の介護が必要になった場合の現時点での計画はありますか？
-<textarea id="q29" class="detail-textarea"></textarea>
-
-<!-- Q30 -->
-<label>Q30 パートナーのSNSへ自身の写真が掲載されてもよいですか？
-<label><input type="radio" name="q30" value="a30-1">掲載してもよい
-<label><input type="radio" name="q30" value="a30-2">鍵付きのアカウントであれば掲載してもよい
-<label><input type="radio" name="q30" value="a30-3">掲載してもよいが公開前に相談してほしい、写真のチェックをしたい
-<label><input type="radio" name="q30" value="a30-4">顔がわからないような写真であれば写っていてもよい
-<label><input type="radio" name="q30" value="a30-5">掲載しないでほしい
-
-<!-- Q31 -->
-<label>Q31 死亡時や働けなくなった時、会社独自の給与補償のようなものはありますか？
-<textarea id="q31" class="detail-textarea"></textarea>
-
-<!-- Q32 -->
-<label>Q32 結婚後、定期的な話し合いの機会を設けますか？
-<label><input type="radio" name="q32" value="a32-1">月に1回以上話し合う約束をしたい
-<label><input type="radio" name="q32" value="a32-2">1シーズンに1回以上話し合う約束をしたい
-<label><input type="radio" name="q32" value="a32-3">半年に1回以上話し合う約束をしたい
-<label><input type="radio" name="q32" value="a32-4">1年に1回以上話し合う約束をしたい
-<label><input type="radio" name="q32" value="a32-5">頻度は決めず、気になったときに話し合いたい
-
-<div class="button-group">
-  <button id="submitBtn" type="button">送信</button>
-  <div class="sub-buttons">
-    <button id="draftBtn" type="button">下書き保存</button>
-    <button id="clearBtn" type="button">フォームクリア</button>
-  </div>
-</div>
-
-<!-- 共有モーダル -->
-<div id="shareModal" class="modal hidden">
-  <div class="modal-content">
-    <h3>共有</h3>
-    <input id="shareName" placeholder="お名前を入力してください（任意）">
-    <button id="shareBtn">共有する</button>
-  </div>
-</div>
-
-</div>
-<script src="app.js"></script>
-</body>
-</html>
+Q29 将来、自分の親の介護が必要になった場合の現時点での計画はありますか？
+Q30 パートナーのSNSへ自身の写真が掲載されてもよいですか？
+Q31 死亡時や働けなくなった時、会社独自の給与補償のようなものはありますか？
+Q32 結婚後、定期的な話し合いの機会を設けますか？
